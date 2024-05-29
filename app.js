@@ -88,7 +88,9 @@ app.post("/v1/chat/completions", async (req, res) => {
       chat_history: chatHistory
     };
 
-    const resp = await fetch("https://api.coze.com/open_api/v2/chat", {
+    // GPT: https://api.coze.com/open_api/v2/chat
+    // Kimi: https://api.coze.cn/open_api/v2/chat
+    const resp = await fetch("https://api.coze.cn/open_api/v2/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

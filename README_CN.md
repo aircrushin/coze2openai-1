@@ -1,17 +1,13 @@
 # C2O
 [English](README.md) · **中文** 
 
-**在您喜爱的 OpenAI 客户端上使用 Coze.**
-
-该项目将 Coze API 转换为 OpenAI API 格式，使您可以在您喜爱的 OpenAI 客户端中访问 [Coze](https://www.coze.com) 的LLMs、知识库、插件和工作流程.
-
 # 功能
 - 支持 Coze API 转换为 OpenAI API 格式
 - 支持流式、非流式输出
 - 支持多机器人快速切换
 
 # 准备工作
-1. 在 [Coze](https://www.coze.com)注册并获取您的 API 令牌
+1. 在 [coze.com](https://www.coze.com)或 [coze.cn](https://www.coze.cn)注册并获取您的 API 令牌
 ![cozeapitoken](pictures/token.png)
 
 2. 创建您的机器人并发布到 API
@@ -87,29 +83,15 @@ console.log(data);
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | `BOT_ID`     | Yes      | 机器人的 ID。从 Coze 中机器人的开发页面 URL 获取它。 bot参数后面的数字是bot id.| `73428668*****`|
 | `BOT_CONFIG`     | No      | 配置模型和机器人ID的对应关系，实现在客户端切换模型来调用不同的机器人的效果。如果调用不在配置文件的模型，则走默认的BOT_ID| `{"model_name_1": "bot_id_1", "model_name_2": "bot_id_2", "model_name_3": "bot_id_3"}`|
+| `COZE_API_BASE`     | No      | 选择coze.com或者coze.cn| `api.coze.com, api.coze.cn`|
 
 
 # 路线图
-**即将推出**
-*   图像支持
-*   音频转文字
-*   文本转语音
-*   Docker 部署
 
 **现在可用**
+*   支持 coze.cn
 *   多机器人切换
 *   连续对话，有对话历史
 *   Zeabur＆Vercel&Railway 部署
 *   流式和非流式传输
 *   Workflow、插件、知识库
-
-# 联系
-如有任何问题或反馈，请随时联系
-
-[X](https://sum4all.site/twitter)\
-[telegram](https://sum4all.site/telegram)
-
-<a href="https://www.buymeacoffee.com/fatwang2" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-# 许可证
-该项目在 MIT 许可证下获得许可.

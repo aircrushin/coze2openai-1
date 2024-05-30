@@ -1,10 +1,6 @@
 ## C2O
 **English** · [中文](README_CN.md) 
 
-**Use Coze on your favorite OpenAI client.**
-
-This project converts the Coze API to the OpenAI API format, giving you access to [Coze](https://www.coze.com) LLMs, knowledge base, plugins, and workflows within your preferred OpenAI clients. 
-
 ## Features
 - Convert Coze API into an OpenAI API
 - Support streaming and blocking
@@ -87,11 +83,6 @@ This project provides some additional configuration items set with environment v
 | `BOT_CONFIG`     | No      | Configure different models to correspond to different bot ids to enable fast bot switching on the client side. Models that are not included will request the default BOT_ID | `{"model_name_1": "bot_id_1", "model_name_2": "bot_id_2", "model_name_3": "bot_id_3"}`|
 
 ## Roadmap
-**Coming Soon**
-*   Image support
-*   Audio-to-text
-*   Text-to-audio
-*   Docker support
 
 **Available Now**
 *   Multi-bot switching
@@ -99,14 +90,3 @@ This project provides some additional configuration items set with environment v
 *   Continuous dialogue with the history of chat
 *   Zeabur & Vercel & Railway deployment
 *   Streaming & Blocking
-
-## Contact
-Feel free to reach out for any questions or feedback
-
-[X](https://sum4all.site/twitter)\
-[telegram](https://sum4all.site/telegram)
-
-<a href="https://www.buymeacoffee.com/fatwang2" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-## License
-This project is licensed under the MIT License.
